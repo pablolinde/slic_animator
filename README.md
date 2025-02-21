@@ -2,7 +2,7 @@
 
 The slic_animator.py script processes a video by applying the SLIC (Simple Linear Iterative Clustering) segmentation algorithm to its keyframes to generate a painting-like stylized version of the input video. To use it, call the video2slic function.
 
-The video euro_slic.mp4 attempts to imitate the UEFA Euro 2024 introduction video. It is the video2slic output for the UEFA Euro 2024 introduction video but with its original clips. In this case, video2slic was executed with its default parameters except for step (3 instead of 5). The input video had a resolution of 1280x720, 60 fps, and a duration of 30 seconds. The execution time was about 40 minutes (using only 3 cores on my 10-year-old HP laptop). Future improvements aim to enhance program efficiency through GPU acceleration and the use of OpenCV's slic function, which is better optimized.
+The video [UEFA EURO 2024 intro made with slic-animator](https://youtu.be/X2xzIweTNFM) attempts to imitate the [UEFA Euro 2024 introduction video](https://www.youtube.com/watch?v=pCPPEngwwCA). It is the video2slic output for the [UEFA Euro 2024 introduction video but with its original clips](https://www.youtube.com/watch?v=EajniExuHTw). In this case, video2slic was executed with its default parameters except for step (3 instead of 5). The input video had a resolution of 1280x720, 60 fps, and a duration of 30 seconds. The execution time was about 40 minutes (using only 3 cores on my at least 10-year-old HP laptop). Future improvements aim to enhance program efficiency through GPU acceleration and the use of OpenCV's slic function, which is better optimized. It is also planned to add a parameter that, if set to True, allows the user to keep the original audio of the video.
 
 ### Considerations:
 
